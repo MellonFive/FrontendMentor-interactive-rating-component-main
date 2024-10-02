@@ -55,14 +55,14 @@ main {
   width: 5rem;
   height: 5rem;
   border-radius: 4rem;
-  transition: .9s;
+  transition: .2s;
 }
 
 .container .number-list .number:hover {
   background-color: var(--White);
   color: var(--Very-Dark-Blue);
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1.15);
 }
 
 /* .container .number-list .number:active  Quando selecionado deixar com a cor laranja. Fazer com JS  {
@@ -81,7 +81,7 @@ main {
   padding: 1.1rem ;
   text-transform: uppercase;
   font-weight: 500;
-  transition: .9s;
+  transition: .2s;
 }
 
 .container .button:hover {
