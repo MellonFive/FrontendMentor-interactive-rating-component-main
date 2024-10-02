@@ -1,0 +1,90 @@
+main {
+  background-color: var(--Very-Dark-Blue);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--White);
+}
+
+.container {
+  background-color: var(--Dark-Blue);
+  max-width: 40rem;
+  width: 100%;
+  border-radius: 2rem;
+  padding: 4rem 3rem;
+}
+
+.container .background-border-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Very-Dark-Blue);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 3rem;
+}
+
+.container .background-border-image .image-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.container .title {
+  margin-top: 3rem;
+}
+
+.container .description {
+  margin-top: 1rem;
+  color: var(--Light-Grey);
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.container .number-list {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .number-list .number {
+  background-color: var(--Very-Dark-Blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 4rem;
+  transition: .9s;
+}
+
+.container .number-list .number:hover {
+  background-color: var(--White);
+  color: var(--Very-Dark-Blue);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/* .container .number-list .number:active  Quando selecionado deixar com a cor laranja. Fazer com JS  {
+  background-color: var(--Orange);
+  color: var(--Very-Dark-Blue);
+  cursor: pointer;
+}
+*/
+
+.container .button {
+  margin-top: 3rem;
+  background-color: var(--Orange);
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  padding: 1.1rem ;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: .9s;
+}
+
+.container .button:hover {
+  background-color: var(--White);
+  transform: scale(1.1);
+}
