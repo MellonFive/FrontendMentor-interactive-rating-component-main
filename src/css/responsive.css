@@ -1,5 +1,9 @@
 @media (max-width: 576px) {
   .container {
-    margin: 8rem;
+    margin: 10rem;
+  }
+
+  .container > .number-list > .number {
+    margin: 0 .5rem;
   }
 }
